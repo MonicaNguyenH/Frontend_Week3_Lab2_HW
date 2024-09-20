@@ -1,0 +1,36 @@
+.app {
+    width: 80%;
+    margin: 0 auto;
+}
+
+
+
+.artist-card {
+    display: flex;
+    gap: 1em;
+    background-color: #eee;
+    padding: 0.5em;
+}
+
+/* Excludes the last element */
+.artist-card:not(last-child) {
+    margin-bottom: 1em;
+}
+
+.artist-url {
+    position: relative;
+    width: 100px;
+    height: 100px;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+.artist-url img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+}
+
+.artist-bio {
+    margin-left: 2em;
+}

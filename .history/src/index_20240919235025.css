@@ -1,0 +1,19 @@
+.artist-card {
+    display: flex;
+    gap: 1em;
+    background-color: #eee;
+    padding: 0.5em;
+}
+
+.artist-url {
+    position: relative;
+    width: 100%;
+    padding-top: 100%;
+    overflow: hidden;
+}
+
+.artist-url img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
